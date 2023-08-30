@@ -1,16 +1,10 @@
 /** @type {import('next-sitemap').IConfig} */
 
 module.exports = {
-  siteUrl: 'https://myurl.com',
+  siteUrl: 'https://storyblok-nextjs-starter.vercel.app/',
   generateRobotsTxt: true,
   changefreq: 'weekly',
   sitemapSize: 5000,
-  alternateRefs: [
-    {
-      href: 'https://mysecondlangurl.com',
-      hreflang: 'en',
-    },
-  ],
   robotsTxtOptions: {
     policies: [
       {

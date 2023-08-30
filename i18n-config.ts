@@ -4,16 +4,11 @@ export type ILocales = (typeof allLocales)[number];
 
 export const i18n = {
   defaultLocale: 'en',
-  defaultDomain: 'myurl.com',
+  defaultDomain: 'storyblok-nextjs-starter.vercel.app',
   locales: allLocales,
   domains: [
     {
-      domain: 'myurl.com',
-      defaultLocale: 'en',
-      locales: ['en'],
-    },
-    {
-      domain: 'mysecondlangurl.com',
+      domain: 'storyblok-nextjs-starter.vercel.app',
       defaultLocale: 'en',
       locales: ['en', 'de'],
     },

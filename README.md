@@ -6,6 +6,12 @@ Also preinstalled is the nice [Storyblok Rich Text Renderer](https://www.npmjs.c
 
 I created this starter since i found myself constantly copying code when i started a new project. I am not partnered in any way with Storyblok, it's just my personal starter which i wanted to share because why not.
 
+## Demo
+
+[DEMO HERE](https://storyblok-nextjs-starter.vercel.app/)
+
+You can see a deployed version of this repo here, using the Storyblok space as you can clone it yourself in the prequisites steps
+
 ## Prequisites
 
 - Clone the storyblok space by clicking this link: [https://app.storyblok.com/#/build/249345](https://app.storyblok.com/#/build/249345)
@@ -40,18 +46,3 @@ yarn generate-sb-types
 # or
 pnpm generate-sb-types
 ```
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
