@@ -10,7 +10,10 @@ I created this starter since i found myself constantly copying code when i start
 
 [DEMO HERE](https://storyblok-nextjs-starter.vercel.app/)
 
-You can see a deployed version of this repo here, using the Storyblok space as you can clone it yourself in the prequisites steps
+You can see a deployed version of this repo here, using the Storyblok space as you can clone it yourself in the prequisites steps.
+
+The demo has two languages: English and German
+If you switch your browser language to english, you will see the homepage at `/`, if your browser is german, you will see `/de` in your path.
 
 ## Prequisites
 
