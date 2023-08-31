@@ -1,6 +1,6 @@
 # Storyblok Nextjs Starter with App Router
 
-This is a opinionated starter including internationalised routing (i18n), full server component rendering (no live editing), Tailwind and full typesafety for your stories and bloks.
+This is an opinionated starter including internationalised routing (i18n), full server component rendering (no live editing), Tailwind and full typesafety for your stories and bloks.
 
 Also preinstalled is the nice [Storyblok Rich Text Renderer](https://www.npmjs.com/package/storyblok-rich-text-react-renderer), which will surely come in handy, as well as next-sitemap.
 
@@ -18,6 +18,7 @@ If you switch your browser language to english, you will see the homepage at `/`
 ## Prequisites
 
 - Clone the storyblok space by clicking this link: [https://app.storyblok.com/#/build/249345](https://app.storyblok.com/#/build/249345)
+- remove the `.default` from the env files in root
 - Add your preview token to the `.env.local` file
 - You have to setup i18n options. Go to the file `/i18n-config.ts` and set it to your liking
   - You can have multiple domains, for different locales, or just use one domain for them all
