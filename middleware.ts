@@ -26,22 +26,11 @@ export function middleware(request: NextRequest) {
   const { pathname, searchParams, hostname } = request.nextUrl;
 
   if (
-    [
-      '/manifest.json',
-      '/favicon.ico',
-      '/next.svg',
-      '/vercel.svg',
-      '/thirteen.svg',
-      '/sitemap.xml',
-      '/sitemap-0.xml',
-      '/sitemap-*.xml',
-      '/images/*.jpg',
-      '/*.jpg',
-      '/*.svg',
-      '/*.png',
-      '/og.jpg',
-    ].includes(pathname)
+    ['.json', '.ico', '.xml', '.jpg', '.svg', '.png', '.jpg'].some((e) =>
+      pathname.endsWith(e)
+    )
   ) {
+    // Probably some public folder stuff, let it pass
     return NextResponse.next();
   }
 
